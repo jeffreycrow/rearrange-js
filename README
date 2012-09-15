@@ -1,14 +1,11 @@
 This script uses jQuery UI's sortable() function to make certain elements
 on web pages re-arrangeable based on certain criteria.
 
-Currently the script involves a server-side PHP script which downloads the
-page we want and inserts a <script> tag for our JS file. Methods that don't
-involve a server-side potion like a bookmarklet are being examined.
+The old version involves a server-side PHP script which downloads the page we want and inserts a <script> tag for our JS file. The page requested is currently hardcoded to NYTimes US News, but that can be changed in the PHP.
 
-The page requested is currently hardcoded to NYTimes US News, but that can
-be changed in the PHP.
+The new version, rearrange-bookmarklet.js, is a bookmarklet that runs entirely client-side.
 
 Still a lot of bugs, especially related to dropping elements in new parts
-of the page. Also the PHP proxy means that relative URLs break. Working on this.
+of the page.
 
 Demo at http://everest.ischool.utexas.edu/~jeff/rearrangejs/
